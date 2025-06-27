@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Quick History Cleaner",
+    "version": "1.0",
+    "description": "Clears only your browsing history without deleting cookies or session data.",
+    "author": "Vahdet Çalışkan",
+    "permissions": [
+        "history"
+    ],
+
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+        "16": "icon.png"
+        }
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    }
+    
+}

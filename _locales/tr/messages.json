@@ -1,0 +1,16 @@
+{
+  "app_name": { "message": "Hızlı Geçmiş Temizleyici" },
+  "app_description": { "message": "Bu uygulama yalnızca ziyaret edilen URL'leri siler; giriş verilerinizi veya çerezleri silmez." },
+  "clear_button": { "message": "Geçmişi Temizle" },
+  "show_button": { "message": "Geçmişi Göster" },
+  "open_page_button": { "message": "Geçmiş Sayfasını Aç" },
+  "cleared_alert": { "message": "Tarayıcı geçmişi başarıyla temizlendi!" },
+  "no_history": { "message": "Tarayıcı geçmişi bulunamadı." },
+  "developed_by": { "message": "Geliştiren" },
+  "settings_title": { "message": "Temizleme Tercihleri" },
+  "clear_history": { "message": "Tarama geçmişi" },
+  "clear_cookies": { "message": "Çerezler ve diğer site verileri" },
+  "clear_cache": { "message": "Önbelleğe alınan görseller ve dosyalar" },
+  "save_button": { "message": "Tercihleri Kaydet" },
+  "settings_saved": { "message": "Tercihler kaydedildi!" }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title data-i18n="app_name"></title>
+  <link rel="icon" type="image/png" href="icon.png">
+  <style>
+    body {
+      font-family: 'Outfit', sans-serif;
+      padding: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      border: none;
+      background-color: #4285f4;
+      color: white;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1 data-i18n="settings_title"></h1>
+
+  <label><input type="checkbox" id="clearHistory"> <span data-i18n="clear_history"></span>
+  <label><input type="checkbox" id="clearCookies"> <span data-i18n="clear_cookies"></span>
+  <label><input type="checkbox" id="clearCache">   <span data-i18n="clear_cache"></span>
+    <div>
+      <button id="saveBtn" data-i18n="save_button"></button>
+    </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

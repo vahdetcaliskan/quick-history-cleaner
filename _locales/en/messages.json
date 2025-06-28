@@ -1,0 +1,16 @@
+{
+  "app_name": { "message": "Quick History Cleaner" },
+  "app_description": { "message": "This application only clears the visited URLs; it does not delete your login data or cookies." },
+  "clear_button": { "message": "Clear History" },
+  "show_button": { "message": "Show History" },
+  "open_page_button": { "message": "Open History Page" },
+  "cleared_alert": { "message": "Browsing history cleared successfully!" },
+  "no_history": { "message": "No browsing history found." },
+  "developed_by": { "message": "Developed by" },
+    "settings_title": { "message": "Cleaning Preferences" },
+  "clear_history": { "message": "Browsing history" },
+  "clear_cookies": { "message": "Cookies and other site data" },
+  "clear_cache": { "message": "Cached images and files" },
+  "save_button": { "message": "Save Preferences" },
+  "settings_saved": { "message": "Preferences saved!" }
+}

@@ -11,19 +11,7 @@
             font-family: 'Outfit', sans-serif;
             }
             button {
-            width: 100%;
-            padding: 15px;
-            background-color: #4285f4;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-family: 'Outfit', sans-serif;
-            border-radius: 99px;
-            font-weight: 500;
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-            font-size: 14px;
-            font-weight: 600;
+
             }
             h1 {
                 font-size: 16px;
@@ -44,13 +32,49 @@
             }
             #clearBtn {
                 margin-top:5px;
+                width: 100%;
+                padding: 15px;
+                background-color: #4285f4;
+                color: white;
+                border: none;
+                cursor: pointer;
+                font-family: 'Outfit', sans-serif;
+                border-radius: 99px;
+                font-weight: 500;
+                letter-spacing: 0.15em;
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: 600;
+            }
+            #clearBtn:hover {
+                background-color: #357ae8;
+            }
+            #openHistoryPageBtn {
+                margin-top:10px;
+                width: 100%;
+                padding: 15px;
+                border: 2px solid #4285f4;
+                color: #4285f4;
+                background: none;
+                cursor: pointer;
+                font-family: 'Outfit', sans-serif;
+                border-radius: 99px;
+                font-weight: 500;
+                letter-spacing: 0.15em;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 600;
+            }
+            #openHistoryPageBtn:hover {
+                background: #4285f4;
+                color: #fff;
             }
             .bottomInfo {
                 border-top: 1px solid #eee;
                 padding-top: 20px;
                 font-size: 10px;
                 opacity: .5;
-                margin-top: 20px;
+                margin-top: 10px;
             }
             .right {
                 float:right;
@@ -61,16 +85,24 @@
         </style>
     </head>
 <body>
-    <h1>Quick History Cleaner</h1>
-    <p>
-        This application only clears the visited URLs; it does not delete your login data or cookies.
-    </p>
-  <button id="clearBtn">Clear History</button>
+    <h1 data-i18n="app_name"></h1>
+    <p data-i18n="app_description"></p>
+    <button id="clearBtn" data-i18n="clear_button"></button>
+    <button id="openHistoryPageBtn" data-i18n="open_page_button"></button>
 
-  <div class="bottomInfo">
-    <div class="right">v1.0</div>
-    Developed by <a href="https:/x.com/vahdetcaliskan" target="_blank">Vahdet Çalışkan</a>
-  </div>
+    <div id="historyList" style="max-height: 200px; overflow-y: auto; margin-top: 10px;"></div>
+    
+
+    <div class="bottomInfo">
+    <div class="right">
+        v1.0
+        <button id="settingsBtn" title="Settings" style="background: none; border: none; cursor: pointer; padding: 0; margin-left: 10px;">
+            <img src="images/settings.svg" alt="Settings" style="width: 20px; height: 20px; vertical-align: middle;">
+        </button>
+    </div>
+    <span data-i18n="developed_by"></span>
+    <a href="https://x.com/vahdetcaliskan" target="_blank">Vahdet Çalışkan</a>
+    </div>
 
   <script src="popup.js"></script>
 </body>
